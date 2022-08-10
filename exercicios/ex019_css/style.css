@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(79, 138, 172);
+    font-family: arial;
+    text-align: justify;
+}
+.um{
+    text-align: center;
+    color: rgb(74, 86, 97);
+    background-color: rgb(225, 225, 225);
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+h2{
+    
+    color: rgb(150, 207, 221);
+}
+p{
+    color: azure;
+}
+.basico{
+    color: rgb(93, 232, 192);
+}
+.interme{
+    color: darkgreen;
+}
+.avan{
+    color: coral;
+}

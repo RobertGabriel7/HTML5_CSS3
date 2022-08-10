@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*para problemas com acentuação   */
+body{
+    
+    background-color: lightcyan;
+
+    color: rgb(0, 0, 0);
+
+text-align: justify;
+
+}
+h2 {
+   
+    color: rgb(255, 161, 9);
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+body{
+    font-family: arial;
+    background-color: rgba(255, 255, 255, 0.5);    
+}
+a{ 
+    text-decoration: none;
+}
+/*Após clicar no link, o link ficará com outra cor*/
+a:visited{
+    color: rgb(30, 147, 186);
+   
+}
+/*Quando passar o mouse em cima do link, o texto irá ficar preto*/
+a:hover{
+color: rgb(0, 0, 0);
+text-decoration: underline;
+}
+/*Ao clicar, o teto fica amarelo*/
+a:active{
+    color: brown;
+}
+a#dois::before{
+    content: '->';
+}
+a#dois::after{
+    content: '<-';
+}
+</style>
+</head>
+<body>
+    <ul>
+        <li><a id="um" href="https://lapidandobateristasassinatura1.club.hotmart.com/lesson/ROxgqQWy7D/boas-vindas">Curso de bateria</a></li>
+        <li><a id="dois" href="https://github.com/RobertSeven7">Meu Github</a></li>
+        <li><a id="tres" href="https://view.genial.ly/61439753ab8bfa0d86a50006/guide-eu-apresentacao">Aprensetação da minha vida</a></li>
+    </ul>
+</body>
+</html>

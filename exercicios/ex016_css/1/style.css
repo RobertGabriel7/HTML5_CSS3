@@ -1,0 +1,25 @@
+*{
+    color: rgb(0, 0, 0);
+        
+    background-attachment: fixed;
+    }
+    h2{
+    
+    background-image: linear-gradient(to left,#03045e,#023e8a,#0077b6,#0096c7,#00b4d8,#48cae4,#90e0ef,#ade8f4,#caf0f8);
+    
+ 
+    }
+body{
+
+background-color: #f1faee;
+
+}
+p{
+text-align: justify;
+    
+color: #023e8a;
+
+}
+
+
+
