@@ -1,0 +1,83 @@
+@font-face {
+    font-family: cordel;
+    src: url(pacote-d012/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: blz;
+    src: url(pacote-d012/PassionOne-Bold.ttf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+header > h1{
+    font-family: cordel;
+    font-size: 4em;
+    margin-bottom: 10px;
+    font-variant: small-caps;
+}
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
+header >p>a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: auto;
+    padding-left: 25px;
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    line-height: 2.20em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.468);
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    max-width: 350px;
+    min-width: 100px;
+    padding: 15px;
+    border-radius: 30px;
+}
+section#se1{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+section#se2{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: larger;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
