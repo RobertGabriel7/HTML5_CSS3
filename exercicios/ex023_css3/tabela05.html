@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 05</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        thead th{
+            padding: 25px;
+            background-color: rgba(0, 0, 0, 0.151);
+            color: white;
+        }
+        td, th{
+            border: 1px solid rgb(0, 0, 0);
+            margin: 0px;
+            padding: 10px;
+            text-align:center;
+            
+        }
+        table{
+            border-collapse:collapse ;
+        }
+        tfoot{
+            border: 1px solid black;
+            background-color: rgba(0, 0, 0, 0.151);
+            padding: 15px;
+        }
+        tfoot th{
+            border: 1px solid black;
+        }
+        caption{
+           
+            background-color: black;
+            color: white;
+        }
+        /* Efeito zebrado */
+      
+        /* Para fixar o cabecalho */
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 0, 0.639);
+        }
+        col.c1{
+            
+            background-color: rgba(32, 251, 251, 0.865);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <Table>
+        <colgroup>
+        <col class="c1">
+        </colgroup>
+        <caption><h3>População das Unidades Federativas</h3></caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 744 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20 989 259</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>16 636 777</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>15 271 073</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 290 773</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 241 665</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9 405 159</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8 964 526</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 261 031</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>6 945 547</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>6 882 793</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>6 690 173</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>3 996 335</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>3 995 541</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>3 966 360</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3 473 266</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3 357 494</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>3 302 041</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>3 212 374</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td>2 680 759</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>2 264 606</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td>1 786 220</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1 531 744</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>815 545</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>781 713</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>514 594</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+             <tr>
+                <th>Total de habitantes</th>
+                <th>210 147 903</th>
+             </tr>
+        </tfoot>
+    </Table>
+</body>
+</html>
+
