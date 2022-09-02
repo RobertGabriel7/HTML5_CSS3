@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 04</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to top, lightblue, black);
+            height: 94vh;
+            color: aliceblue;
+        }
+        form{
+            background-image: linear-gradient(to right, rgba(16, 153, 239, 0.975), rgba(25, 81, 171, 0.979));
+            margin: auto;
+            max-width: 200px;
+            color: white;
+            border-radius: 30px 10px 30px 10px;
+            padding: 25px;
+        }
+        legend{
+
+            text-align: center;
+        }
+        div#div1{
+            margin: auto;       
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formulario de Cadastro</h1>
+    <form action="" method="post">
+     
+         
+            <legend>Dados Pessoais</legend>
+             <p><label for="email">E-Mail: </label></p>
+             <input type="email" name="email" id="email" required autocomplete="email">
+             <p><label for="tele">Telefone: </label></p>
+             <input type="tel" name="tele" id="tele" autocomplete="tel" required >
+             <P>
+                 <input type="submit" value="Enviar">
+                 <input type="reset" value="Limpar">
+             </P>
+         
+    
+       
+    </form>
+</body>
+</html>
