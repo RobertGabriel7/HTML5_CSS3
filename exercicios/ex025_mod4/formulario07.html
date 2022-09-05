@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="">
+        <p><label for="es">Estado: </label></p>
+        
+        <select name="Estado" id="es">
+        <optgroup label="Região Sudeste">             
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </optgroup>
+       
+        <optgroup label="Região Sul">
+        <option value="SC">Santa Catarina</option>
+        <option value="RS">Rio Grande Do Sul</option>
+        <option value="PR">Paraná</option>
+        </optgroup>
+        </select>
+       
+            <!-- Sugestões -->
+
+        <p>
+            <label for="pro">Profissão</label>
+            <input type="text" name="pro" id="pro" list="lispro">
+            <datalist id="lispro">
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="MED">Medico</option>
+                <option value="ADVO">Advogada</option>
+            </datalist>
+        </p>
+        <!-- Area de Texte -->
+        <p>
+            <label for="mensa">Mensagem:</label>
+            <br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
