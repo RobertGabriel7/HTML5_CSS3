@@ -1,0 +1,12 @@
+@media screen and (max-width:600px) and (max-height:670px){
+    a:hover{
+        background-color: aqua;
+    }
+    
+    a#op1 { display: none; }
+    a#op2 { display: none; }
+    a#op3 { display: none; }
+    a#op4 { display: none; }
+    a#op5 { display: none; }
+    
+}
