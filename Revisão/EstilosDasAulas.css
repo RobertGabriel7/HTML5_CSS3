@@ -1,0 +1,43 @@
+
+/* Para adicionar uma fonte que não tem no CSS */
+@font-face {
+    /* O nome que vc quer escolher para a nova font-family: ; */
+    font-family: Novafonte;
+    /* O caminho da nova font-family: ; */
+    src: url(Recursos/RychardwalkerDemo-nRwRP.ttf);
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Tipo da fonte */
+    font-size: 30px; /* Tamanho da fonte. Px é pixel */
+    color: rgb(51, 74, 207);/* Cor do texto */
+    text-shadow: 2px 2px 2px black; /* Sombra no texto: 2px_deslocamento lateral, 2px_deslocamento vertical, 2px_espalhamento da sombra */
+    
+}
+/* Para estilizar mais de uma tag */
+h2, h3, h4{
+    text-align: left;  /* Alinhamento de texto: left, center, right */
+    font-family: Novafonte;
+    
+}
+p{
+    text-align: justify; /* Texto Justificado(na mesma medida: right and left) */
+    text-indent: 50px; /* Margem de paragrafo */
+}
+
+/* # indica que existe um id que se chama imagemGradiente. Id é mais individual */
+/* . Indica uma class. Semelhante ao id, porém pode ser usada por varias tags e assim modificar mais tags ao mesmo tempo  */
+img.ImgGradiente{
+    width: 320px; /* Largura */
+    height: 180px; /* Altura */
+    /* cima left 5px cima right 5px, baixo left 5px baixo right 5px. */
+    border-radius: 5px 5px 5px 5px; /* Para arredondar os cantos dos objetos */
+
+}
+span#um{
+    text-decoration: none; /* overline o contrario de underline, line-through, none */
+    font-weight:bolder ; /* Quantidade de negrito */
+}
