@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    height: 100vh; /* view height: significa que vai ocupar a tela com base na porcentagem estabelecida; */
+    /* flex-direction: row; */ /* Vai mexer na posição dos filhos do container */
+    /* flex-wrap: wrap; */ /* Coloca os elementos filhos em outras linhas caso não tenha mais espaço disponivel na mesma.*/
+    flex-direction:column;
+    justify-content: center;/* Esse cara quem manda na posição dos elementos filhos dependendo do flex-direction: row ou column; */
+
+    /* Se for COLUMN (horizontal), vai mexer os elementos filhos no EIXO X , do lado esquerdo para o lado direito */
+    align-items: center;
+    /* Se for ROW (vertical), vai mexer os elementos filhos no EIXO Y , de cima para baixo. */
+
+
+}
+.texts{
+    border: 2px solid ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container1{
+    border: 2px solid rgb(99, 99, 99);
+}
+#container2{
+    border: 2px solid rgb(60, 92, 233);
+}
+.content {
+    width: 250px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}

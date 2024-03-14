@@ -1,0 +1,9 @@
+Estilização de imagens no CSS:
+
+img.ImgGradiente{
+    width: 320px; /* Largura */
+    height: 180px; /* Altura */
+    /* cima left 5px cima right 5px, baixo left 5px baixo right 5px. */
+    border-radius: 5px 5px 5px 5px; /* Para arredondar os cantos dos objetos */
+
+}

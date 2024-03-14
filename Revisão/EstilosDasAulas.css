@@ -6,7 +6,13 @@
     /* O caminho da nova font-family: ; */
     src: url(Recursos/RychardwalkerDemo-nRwRP.ttf);
 }
-
+body{
+    background-color: rgb(230, 232, 230); /* Cor do fundo */
+    /* background-image: url("Recursos/maxresdefault.jpg"); */
+    /* R = RED, G = GREEN, B = BLUE, A = ALFA para a transparencia. */
+    color: rgba(0,0,0, 0.7); /*  Cor da fonte*/;
+    
+}
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -27,17 +33,30 @@ p{
     text-align: justify; /* Texto Justificado(na mesma medida: right and left) */
     text-indent: 50px; /* Margem de paragrafo */
 }
-
 /* # indica que existe um id que se chama imagemGradiente. Id é mais individual */
 /* . Indica uma class. Semelhante ao id, porém pode ser usada por varias tags e assim modificar mais tags ao mesmo tempo  */
-img.ImgGradiente{
-    width: 320px; /* Largura */
-    height: 180px; /* Altura */
-    /* cima left 5px cima right 5px, baixo left 5px baixo right 5px. */
-    border-radius: 5px 5px 5px 5px; /* Para arredondar os cantos dos objetos */
-
-}
 span#um{
     text-decoration: none; /* overline o contrario de underline, line-through, none */
     font-weight:bolder ; /* Quantidade de negrito */
+}
+figure.fotos{
+    border: 8px solid rgba(0, 0, 0, 0.7); /* Borda, espessura da borda, tipo da borda, cor da bora */
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255); /* Semelhante ao text-shadow */   
+    position: relative; /* Vai ficar relativo a onde o codigo a html foi coloca */
+}
+/* Tag. class e a tag que será modificada. Nesse caso todas as tag img */
+figure.fotos img {
+    width: 100%; /* O tamanho da imagem vai ser 100% onde ela estiver */
+    height: 100%;
+}
+figure.fotos figcaption {
+    position: absolute; /* Posição absoluta dentro do container */
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    color: black;
+
+
 }

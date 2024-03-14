@@ -1,0 +1,46 @@
+@font-face{
+    font-family: eita;
+    src: url("../Revisão/Recursos/RychardwalkerDemo-nRwRP.ttf");
+}
+
+.container{
+    background-color: #919191;
+    height: 500px;
+
+    /* Display: para controlar um elemento do html. */
+    display: flex;
+    /* flex-direction: Usando juntamente com o display para definir a direção dos itens dentro do container */
+    flex-direction: row; /* row é horizontal */
+    /* Para definir se os itens vão ter quebra de linha ou não. */
+    flex-wrap: wrap;
+    /* flex direction e flex-wrap __juntos*/
+    /* flex-flow: row wrap; */
+    
+    /*justify-content: Alinhamento horizontal */
+    justify-content: space-between;
+
+    justify-content: space-around;
+
+    justify-content: center;
+
+    justify-content: flex-start;
+    
+    /*align-items:  Alinhamento vertical */
+    align-items: center;
+
+    align-items: stretch;
+
+    align-items: stretch;
+
+    /* lign-content:  Alinhamento vertical para os itens que tiveram uma quebra*/
+    align-content:stretch;
+}
+.item {
+    background-color: #0073ff;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    font-family: eita;    
+}

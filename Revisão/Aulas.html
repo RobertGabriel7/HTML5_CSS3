@@ -4,7 +4,7 @@
     <meta charset="UTF-8"> <!-- Charset significa character set = conjunto de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão de aulas</title>
-    <link rel="stylesheet" href="EstilosDasAulas.css"> <!-- Para importa um arquivo css -->
+    <link rel="stylesheet"  href="EstilosDasAulas.css"> <!-- Para importa um arquivo css. rel é o tipo do arquivo href é o endereço do arquivo -->
 </head>
 <body>
 
@@ -30,16 +30,24 @@
             <p>Script em Python:<pre>
                  <code style="text-align: justify; ">import time
                     time.sleep(1)
-                    print("Fala pessoal, tudo bem ? Que Deus abençoe vocês!")</code><!-- tag code serve para o html entender que é um código de programação -->
-            </pre> <!-- a tag pre pre-formata o texto --></p>
+                    print("Fala pessoal, tudo bem ? Que Deus abençoe vocês!")
+                </code><!-- tag code serve para o html entender que é um código de programação -->
+            </pre><!-- a tag pre pre-formata o texto --></p>
+            
+           
+            <figure class="fotos">
+
+                <img class="ImgGradiente" src="Recursos/maxresdefault.jpg"  alt="Imagem com cores gradientes.">  <!-- tag img serve para inserir uma imagem. src é o caminho da imagem e o alt é a discrição -->
+                
+                <figcaption>
+                    <h3>Imagens com cores gradientes.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </figcaption> <!-- É uma legenda para a tag figure e ajuda os navegadores e pessoas com deficiencia a saber que imagem é -->
+            
+        </figure> <!-- a tag figure diz que uma imagem e tem um significado semântico -->
 
     </header> <!-- cabeçalho até aqui -->
 </div>
-
-<!-- tag serve para inserir uma imagem. src é o caminho da imagem e o alt é a discrição -->'
-<img class="ImgGradiente" src="Recursos/maxresdefault.jpg"  alt="Imagem com cores gradientes.">'
-
-<img class="ImgGradiente"  src="Recursos/mqdefault_6s.png" alt="Imagem com cores gradientes 2.">
 
 </body>
 </html>

@@ -1,0 +1,78 @@
+// FLEXBOX = Caixa flexivel
+
+//DISPLAY FLEX
+
+´´// FLEX DIRECTION{
+    Diz qual é a ordem em que os elementos filhos (dentro desse container/div) vão ser ordenados.
+    
+    Quando ativado o display flex, por padrão, o flex-direction é row.
+
+    Ordens disponiveis:
+    
+    *ROW = Na mesma linha, um do lado do ao outro.
+    *COLUMN =  coluna, ficando um baixo do outro.
+    *ROW-REVERSE = Ordem inversa dos elementos em ROW.
+    *COLUMN-REVERSE = Ordem inversa dos elementos em COLUMN.
+
+}
+
+´´// FLEX WRAP{
+    A FLEX-WRAP diz para o elemento PAI o que fazer quando o espaço disponivel que ele tem não é o suficiente para alinhar os elementos na ordernação que foi solicitada no FLEX-DIRECTION.
+
+    Quando não tiver mais espaço suficiente na mesma linha, wrap/quebre eles para a proxima coluna. Se eles estiverem em uma coluna, wrap/quebre para a proxima linha.
+
+    (Elementos de bloco (<div>, <p>, <header>, <footer>, etc.): Por padrão, os elementos de bloco ocupam toda a largura disponível do contêiner pai. Isso significa que eles se estendem horizontalmente para preencher a largura do contêiner pai, a menos que uma largura específica seja definida.)
+
+    É possivel colocar os elementos filhos em overflow e deixa-los em scroll ou colocas em colunas.
+    
+    Maneiras do WRAP:
+    WRAP = Quebra
+    NOWRAP = Não quebra
+
+}
+
+´´-> FLEX FLOW {
+    FLEX-FLOW é uma shorthand (taquigrafia) e junta o FLEX-DIRECTION e o FLEX-WRAP numa mesma tag.
+    
+    Substituo: 
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    Por:
+    flex-flow: row wrap;
+}
+
+´´// JUSTIFY CONTENT{
+    Justify-content permite o alinhamento dos elementos nos eixos que estão ordenados.
+
+    // ROW = eixo X (Horizontal)
+    Ordernação para o ´´EIXO X ROW´´:
+
+    FLEX-START: Padrão, lado esquerdo
+    CENTER: No centro do eixo
+    FLEX-END: No final da linha.
+    SPACE-BETWEEN: Coloca os elementos em separados por espaços maixmos, igual para todos.
+    SPACE-AROUND: Semelhante ao space-between, mas coloca espaços antes das bordas laterais.
+    SPACE-EVENLY: Semelhantemente ao space-around, porém os espaços das bordas laterais são os mesmo espaços between os elementos.
+
+    // ´´COLUMN = eixo Y (Vertical)´´
+    Referente ao eixo Y com flex-direction: COLUMN, o justify-content vai funcionar igual ao eixo x ROW, porém os elementos estarão em column, dessa maneira, toda modificação com o justify-content será em column que utliza o EIXO Y COLUMN (VERTICAL).
+
+
+}
+ 
+´´// ALIGN ITEMS{
+    align-items faz o alinhamento do eixo segundario do eixo principal.
+
+    /* Se for column, vai mexer os elementos filhos no EIXO X (horizontal), do lado esquerdo para o lado direito */
+    align-items: end;
+    /* Se for row, vai mexer os elementos filhos no EIXO Y (vertical), de cima para baixo. */
+
+    Ordenações:
+    FLEX-START: Posição padrão.
+    FLEX-END: Posição no fim.
+    CENTER: No centro.
+
+    // ROW = eixo Y (Vertical)
+    // Column = eixo X (Horizontal)  
+}

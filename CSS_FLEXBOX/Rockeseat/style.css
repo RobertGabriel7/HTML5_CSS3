@@ -1,0 +1,27 @@
+@font-face{
+    font-family: obaa;
+    src: url("RychardwalkerDemo-nRwRP.ttf");
+}
+#dive1{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+h1{
+    font-family: obaa;
+}
+p{
+    font-size: 17px;
+    font-weight: 50;
+}
+span{
+    color: orange;
+    
+}
