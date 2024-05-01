@@ -6,9 +6,9 @@
     flex-direction:column;
     justify-content: center;/* Esse cara quem manda na posição dos elementos filhos dependendo do flex-direction: row ou column; */
 
-    /* Se for COLUMN (horizontal), vai mexer os elementos filhos no EIXO X , do lado esquerdo para o lado direito */
+    /* Se for ROW (horizontal), vai mexer os elementos filhos no EIXO X , do lado esquerdo para o lado direito */
     align-items: center;
-    /* Se for ROW (vertical), vai mexer os elementos filhos no EIXO Y , de cima para baixo. */
+    /* Se for COLUMN (vertical), vai mexer os elementos filhos no EIXO Y , de cima para baixo. */
 
 
 }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tabelas, linhas e colunas - Aula 11</title>
+    <style>
+        @font-face {
+            font-family: newfont;
+            src: url("Recursos/RychardwalkerDemo-nRwRP.ttf");
+        }
+        
+        th{
+            font-family: newfont;
+        }
+        caption#cap1{
+            margin: 30px 0px;
+            font-family: newfont;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        caption#cap2{
+            /* Por padrão o caption-side: é top, mas pode ser alterado */
+            caption-side: bottom; /* Possição do titulo */
+            text-align: end;
+            margin: 10px 0px;
+        }
+        table{
+            /* width: 100%; */
+            margin-bottom: 50px;
+            
+        }
+        table, th, td{
+            padding: 7px 10px;
+            border: 1px solid rgba(0,0,0,0.3);
+            border-collapse: collapse; /* border-collapse permite juntar ou separar as bordas */
+        }
+        thead{
+            text-align: left;
+        }
+        div.responsive_table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="responsive_table">
+    
+        <!-- Table -->
+        <table > <!-- Tag da tabela -->
+            <caption id="cap1">Livros da Bíblia</caption> <!-- Legenda da tabela -->
+    
+            <thead><!-- Cabeçalho da tabela -->
+                <tr> <!-- Linha da tabela -->
+                    <th>Livro</th> <!-- Cabeçalho da coluna -->
+                    <th>Quem escreveu</th>
+                    <th>Profissão</th>
+                    <th>Ano</th>
+                    <th>Antigo ou novo testamento?</th>
+                </tr>
+            </thead>
+    
+            <tbody> <!-- Corpo da tabela -->
+    
+                <!-- Livro de Mateus -->
+                <tr>
+                    <td>Mateus</td>
+                    <td>Mateus</td>
+                    <td>Publicano: cobrador de impostos</td>
+                    <td>Por volta de 60 - 70 d.C</td>
+                    <td>Novo testamento</td>
+                </tr>
+                <!-- Livro de Marcos -->
+                <tr>
+                    <td>Marcos</td>
+                    <td>João Marcos</td>
+                    <td>Desconhecida</td>
+                    <td>Por volta de 55 - 65 d.C</td>
+                    <td>Novo testamento</td>
+                </tr>
+                <!-- Livro de Lucas -->
+                <tr>
+                    <td>Lucas</td>
+                    <td>Lucas</td>
+                    <td>Médico</td>
+                    <td>Por volta 60 - 65 d.C</td>
+                    <td>Novo testamento</td>
+                </tr>
+                <!-- Livro de João -->
+                <tr>
+                    <td>João</td>
+                    <td>João</td>
+                    <td>Pescador</td>
+                    <td>Por volta de 80 - 95 d.C</td>
+                    <td>Novo testamento</td>
+                </tr>
+    
+                <!-- Livro de Atos -->
+                <tr> <!-- Linha da tabela -->
+                    <td>Atos dos Apóstolos</td> <!-- Célula de dados -->
+                    <td>Lucas</td>
+                    <td>Médico</td>
+                    <td>Por volta de 65 d.C</td>
+                    <td>Novo testamento</td>
+                </tr>
+    
+                <!-- Livro de Romanos -->
+                <td>Romanos</td>
+                <td>Ap. Paulo</td> <!-- tag para inserir dados em uma coluna -->
+                <td>Fabricante de tendas</td>
+                <td>Por volta de 57 d.C</td>
+                <td>Novo testamento</td>
+    
+            <!--    <tr>
+                 Para ocupar 4 colunas
+                <td colspan="4"></td> // Ocupa colunas
+                <td rowspan="2"></td> // Ocupa linhas
+               </tr> -->
+            </tbody>
+
+        <tfoot>
+            <caption id="cap2"><em>Informações da Bíblia</em><caption>
+        </tfoot>
+    </table>
+</div>
+
+
+</body>
+</html>
