@@ -1,46 +1,45 @@
-@font-face{
-    font-family: eita;
-    src: url("../Revisão/Recursos/RychardwalkerDemo-nRwRP.ttf");
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
-
-.container{
-    background-color: #919191;
-    height: 500px;
-
-    /* Display: para controlar um elemento do html. */
+header{
+    padding: 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+main{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px;
+    color: rgb(0,0,0,0.8);
+    
+}
+figure{
     display: flex;
-    /* flex-direction: Usando juntamente com o display para definir a direção dos itens dentro do container */
-    flex-direction: row; /* row é horizontal */
-    /* Para definir se os itens vão ter quebra de linha ou não. */
-    flex-wrap: wrap;
-    /* flex direction e flex-wrap __juntos*/
-    /* flex-flow: row wrap; */
-    
-    /*justify-content: Alinhamento horizontal */
-    justify-content: space-between;
-
     justify-content: space-around;
-
-    justify-content: center;
-
-    justify-content: flex-start;
-    
-    /*align-items:  Alinhamento vertical */
-    align-items: center;
-
-    align-items: stretch;
-
-    align-items: stretch;
-
-    /* lign-content:  Alinhamento vertical para os itens que tiveram uma quebra*/
-    align-content:stretch;
 }
-.item {
-    background-color: #0073ff;
-    color: #fff;
-    padding: 20px;
-    margin: 5px;
-    width: 200px;
+figure img{
+    width: 450px;
+    height: 300px;
+}
+section{
+    padding:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section#tags{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;   
+}
+section#tags div{
+    border: 2px solid rgb(0,0,0,0.5);
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
     height: 50px;
-    font-family: eita;    
+    text-align: center;
 }
