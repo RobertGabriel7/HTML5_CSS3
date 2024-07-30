@@ -1,0 +1,11 @@
+Para calcular:
+
+0,7 equivale a 70%
+
+Caso minha div tenha 800px e eu queira usar 72% dessa div, eu posso fazer esse calculo:
+
+0,72 * 800 = 576px
+
+- A porcentagem vai pegar o tamanho da tela e dividir conforme a quantidade de porcentos que tu precisa.
+
+-- A porcentagem é ideal para sites responsivos!

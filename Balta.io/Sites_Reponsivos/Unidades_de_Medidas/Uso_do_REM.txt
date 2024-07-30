@@ -1,0 +1,9 @@
+REM {
+
+    é basicamente a mesma coisa que o em, porem, ele utiliza a mediadas de fonte com base no root (html).
+
+    Ou seja, é melhor utilizar rem que paginas grandes.
+
+    Quando um parent não tiver a font-size, ele sempre vai procurar no proximo parent.
+
+}

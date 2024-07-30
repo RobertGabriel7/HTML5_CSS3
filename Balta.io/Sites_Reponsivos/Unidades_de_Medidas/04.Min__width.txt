@@ -1,0 +1,24 @@
+
+- Max-width {
+ 
+    Até qual ponto eu quero que a imagem expanda
+
+    Por exemplo:
+
+    Até 550px, ou seja, max-width: 550px
+
+    Responsivo.
+}
+
+Min-width {
+    
+    Serve para parar de redimenciar até certo ponto.
+
+    Por exemplo:
+
+    Eu quero que minha a imagem fique no minimo 700px, então:
+    
+    min-width: 700px  
+
+    Se a largura da tela for menor que 700px, a imagem não vai ser redimencionada e não fica responsivo
+}

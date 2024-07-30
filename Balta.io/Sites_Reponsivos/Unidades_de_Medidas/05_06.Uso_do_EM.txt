@@ -1,0 +1,26 @@
+Unidade de medida relativa
+
+EM {
+    
+    body (componente pai) {
+        
+        font-size: 18px;
+    
+    }
+    
+    ul (componente filho) {
+        
+        font-size: 1em ; Significa que vai pegar a medida do parent 
+
+    }
+
+    Agora, 1.5em equivale a 150% de 18px (componente pai) 
+
+}
+
+
+Problemas com em {
+
+    O em pode ser utilizado, porém se for usar somente em pode dar problema, ainda mais se for uma pagina grande.
+
+}

@@ -1,0 +1,13 @@
+Quando e qual utilizar para responsividade ?
+
+
+ - font-size: rem, mais facil de controlar e utiliza a base HTML.
+
+ - margins e paddings: em, pois é sempre relativo ao elemento pai.
+
+ - width: % ou em 
+
+
+ - Pixel é serve para deixar algo fixo, pois não muda independemente da quantidade de pixels na tela e não é afetado por responsividade. 
+
+ É ideal utilizar pixel nos ultimos casos, pois não torna as coisas responsivas.

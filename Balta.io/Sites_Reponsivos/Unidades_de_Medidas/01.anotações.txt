@@ -1,0 +1,53 @@
+CSS Units - Tudo é baseado em medidas
+
+Responsivdade (igual a) =  medidas  
+
+Medidas mais utilizadas:
+
+- Unidade Absoluta (Absolute Units)
+- Unidade Relativa (Relative Units)
+- Porcetagem (Porcentage)
+
+
+Unidade Absoluta {
+    
+     Trabalha com a quantidade de pixels existente em uma tela, ou seja, independente do tamanho da tela, se eu colocar 15px não mudar, mesmo com telas de tamanhos diferentes.
+
+    -- Pixels (px)
+    -- pt, cm, mm, in, etc.
+
+}
+
+Unidades Relativas {
+
+    Existem dois tipos de unidades relativas:
+    
+    - Ao tamanho da fonte
+    - Ao viewport (É a pagina, o campo de visão)
+
+    Relativo ao tamanho da fonte{
+        
+        - em e rem (embora existe outros, essas duas medidas são as mais utilizadas)
+
+    }
+
+    Relativo ao Viewport {
+
+        - vw, vh, vmin, vmax.
+
+    }
+
+}  
+
+Porcentagem {
+
+    A porcentagem trabalha com o tamnho relativo da tela, ou seja, se for uma tela de celular e algum elemento estiver com 20%, quer dizer que esse elemento vai ficar com 20% do tamanho da tela. Caso seja tela de tamanho diferente, o elemento ocupará 20% do tamanho dessa tela. 
+
+
+    - Famoso %
+    - É comumente utilizado para widths
+    - Relativo ao pai (parent), exceto ao Height. 
+
+    A porcentagem sempre lida com o componente pai, ou seja, se uma img estiver dentro de uma div e adicionar width: 20% para o img, a img vai ocupar 20% do tamanho disponivel da div (pai).
+
+}
