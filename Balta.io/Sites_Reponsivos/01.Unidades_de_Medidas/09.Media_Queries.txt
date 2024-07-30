@@ -1,0 +1,17 @@
+Media Queries {
+
+    Muda o comportamento da pagina quando mudamos o tamanho.
+
+    @media print funciona quando é para impressão.
+
+    @media screen funciona para telas maiores, como tv. 
+
+    @media handheld funciona para dispositivos menores.
+
+    @media all funciona para todos os tipos de medias.
+
+    @media funciona para tipo screen.
+
+    Media queries serve justamente para adicionar responsividade em varios tamanhos de telas.
+
+}

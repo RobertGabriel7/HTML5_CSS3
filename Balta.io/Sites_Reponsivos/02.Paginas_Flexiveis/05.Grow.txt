@@ -1,0 +1,22 @@
+É possivel criar varias class dentro de uma unica tag:
+
+<div class="box red-bg large-text">
+    Este é um texto com múltiplas classes.
+</div>
+
+box: Define a borda e o padding.
+red-bg: Define a cor de fundo vermelha e o texto branco.
+large-text: Define o tamanho da fonte maior
+
+--------------------------------------------------------------
+
+-- flex-grow controla a quantidade de espaço extra que um item flexível deve ocupar dentro de um contêiner flexível. Um valor maior indica que o item deve crescer mais em relação aos outros itens com base em seus valores flex-grow.
+
+-- Os elementos com flex-grow permite que os elementos fiquem dinamicos 
+
+
+--- flex-grow: Controla como os itens crescem para ocupar espaço extra.
+
+--- flex-shrink: Controla como os itens encolhem quando não há espaço suficiente.
+
+--- flex-basis: Define o tamanho inicial dos itens antes de qualquer crescimento ou encolhimento.

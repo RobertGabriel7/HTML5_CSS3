@@ -1,0 +1,11 @@
+align-self:
+
+Essa propriedade permite que você ajuste o alinhamento de um único item, substituindo o alinhamento padrão estabelecido pela propriedade align-items do contêiner flexível.
+
+-- Existe dois conceitos no align self: Ao container e ao Item.
+
+- Align-item é referente ao container 
+- Align-self é referente ao item
+
+
+-- Para um item especifico, utilza o align-self 

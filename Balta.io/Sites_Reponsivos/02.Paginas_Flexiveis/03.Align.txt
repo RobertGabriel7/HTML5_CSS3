@@ -1,0 +1,14 @@
+Justify-content: ser para posicionar os elementos como se fosse o text-align, porem, existe diferenças com row e column.
+
+Tudo de posiocionamento começa da ESQUERDA para DIREITA.
+
+Justify-content: flex-start;
+
+
+* IMPORTANTE: 
+
+-- Justify se refere ao alinhamento HORIZONTAL.
+
+-- Align se refere ao alinhamento VERTICAL.
+
+-- Quando o flex-direction for column, o Justify e o align inverte a lógica de alinhamento.

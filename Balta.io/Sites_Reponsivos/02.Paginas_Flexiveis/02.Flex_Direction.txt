@@ -1,0 +1,10 @@
+    display: flex; /* display flexivel */
+
+    flex-direction: row; /* row ou column */
+
+    flex-wrap: wrap; /* Serve justamente para quebrar linha quando os elementos estão row */
+
+    /* flex-flow: substitui o flex-direction e o flex-wrap */
+
+    /* direction e wrap */
+    flex-flow: column wrap;

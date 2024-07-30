@@ -1,0 +1,5 @@
+flex-basis: Define o tamanho inicial dos itens antes de qualquer crescimento ou encolhimento.
+
+- O flex-basic substitui o min e o max width quando é utilizado o flex-box.
+
+flex-basic: 50%;

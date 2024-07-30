@@ -16,6 +16,8 @@ EM {
 
     Agora, 1.5em equivale a 150% de 18px (componente pai) 
 
+    - Por exemplo, .25em significa um quarto de 1em, que é uma fração menor da unidade base (em).
+
 }
 
 

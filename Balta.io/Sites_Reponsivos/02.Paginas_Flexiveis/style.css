@@ -1,0 +1,83 @@
+body{   
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    border: 10px solid palevioletred;
+    max-width: 600px;
+    color: black;
+    width: 50%;
+    padding: .25em;
+    height: 200px;
+
+    
+
+    display: flex; /* display flexivel */
+
+    flex-direction: row; /* row ou column */
+
+    flex-wrap: wrap; /* Serve justamente para quebrar linha quando os elementos estão row */
+
+    /* flex-flow: substitui o flex-direction e o flex-wrap */
+
+    /* direction e wrap */
+    flex-flow: row wrap;
+
+    /* justify funciona ao alinhamento HORIZONTAL  */
+    justify-content: none;
+    
+    /* Align funciona ao alinhamento VERTICAL */
+    align-content: none; /* align-content: modifica o conteudo */
+
+     /* Refente ao item */
+    align-items: center;
+
+    /* Alinha em espaçamento igual */
+    justify-content: none;
+}
+
+.item{
+    text-align: center;
+    margin: .5em;
+    padding: .5em;
+    background-color: rgb(43, 182, 50);
+    border: 2px solid blue;
+    
+}
+
+.item-1 {
+    background-color: yellow;
+    
+    /* flex-grow serve para controlar a quantidade de espaço disponivel que um item flexivel pode ocupar. */
+    /* Quanto maior o valor, maior sera o tamanho do item. */
+    flex-grow: none;
+
+    /* Modifica somente um item */
+    /* Ocupa todo o espaço */
+    align-self: stretch;
+
+}   
+.item-2 {
+    
+    background-color: aquamarine;
+    /* flex-shrink é o contrario ao flex-grow */
+    /* vai encolher o item */
+    flex-shrink: none;
+
+}
+.item-3 {
+    
+    background-color: bisque;
+    /* flex-grow e o flex-shrink */
+    flex: none none;
+    align-self: flex-end;
+}
+.base {
+ 
+    /* Define o tamanho inicial dos elementos antes de qualquer crescimento ou encoilmento. */
+    flex-basis: none;
+    align-self: none;
+
+}

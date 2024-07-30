@@ -1,0 +1,7 @@
+    justify-content: space-around;
+
+    - space-around: espaça os elementos.
+    
+    - space-between: espaça os elementos, os espaços entre(between) os elementos são iguais.
+
+    space-evenly: espaça os elementos em espaços iguais, tanto nas laterais quanto entre os elementos. 

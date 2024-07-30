@@ -1,0 +1,13 @@
+Flexbox {
+
+    - É uma das maneiras para deixar o layout flexivel/responsivo.
+
+    - Caixa flexivel (flexbox)
+
+    Consiste em utilizar uma caixa (container) para tudo que for flexivel.
+
+    Ao inves de modificar item por item e torna-los flexiveis, com o flexbox, todos os itens ficam flexiveis dentro de uma caixa (container).
+    
+    O flexbox ajuda na criação de layout flexiveis e responsivos.
+
+}
